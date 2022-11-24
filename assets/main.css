@@ -7,12 +7,25 @@
 body {
     /*background-color: #fdf5df;*/
     background-color: #e8eae3;
+    font-family: Baskerville, GaramondPro, Verdana, Lucida Grande, Arial, sans-serif;
 }
 
 h1{
     color: #333;
     font-size: 38px;
-    font-family: GaramondPro;
+    font-family: Baskerville, GaramondPro, Verdana, Lucida Grande, Arial, sans-serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 1.5px;
+    text-align: center;
+}
+
+p{
+    color: #333;
+    font-size: 16px;
+    font-family: Baskerville, GaramondPro, Verdana, Lucida Grande, Arial, sans-serif;
     font-weight: normal;
     letter-spacing: 2px;
     width: auto;
@@ -42,3 +55,18 @@ h1{
 .mono_link {
     font-family: monospace, monospace;
 }
+.aboutme{
+    justify-content: center;
+    max-height: auto;
+    min-width: 60vw;
+    max-width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding-top: 20pt;
+    padding-bottom: 20pt;
+    border-bottom: 2.27px solid black;
+  }
+  .contact{
+    width: 33.33333333%;
+  }
