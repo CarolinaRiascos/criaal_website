@@ -23,10 +23,7 @@ h1{
 .sub-header-link {
   /*border: 2px solid lightgrey;*/
   margin: 10px 30px;
-  flex-basis: 60px;
-  flex-grow:1;
-  min-width: 3rem;
-  max-width: 6rem;
+  width: fit-content;
 }
 
 .sub-header-link a {
@@ -38,9 +35,8 @@ h1{
     justify-content: center;
     max-height: 50px;
     min-width: 60vw;
-    max-width: 95vw;
-    margin-left: 3.5rem;
-    margin-right: 3.5rem;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
 }
 .mono_link {
