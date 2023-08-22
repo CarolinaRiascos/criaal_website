@@ -1,0 +1,11 @@
+  <nav>
+    <div class='navigation'>
+    {% for item in site.data.navigation %}
+    <div class='sub-navigation'>
+      <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{%else%}style="color: gray";{% endif %}>
+        {{ item.name }}
+      </a>
+    </div>
+    {% endfor %}
+    </div>
+  </nav>

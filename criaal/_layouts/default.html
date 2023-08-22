@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/font_awesome_all.css">
+  </head>
+
+  <header>
+    <div class='header-links'>
+      <div class='sub-header-link name'>
+        Carolina Riascos-Álvarez
+      </div>
+      <div class='sub-header-link'>
+          <a class = "mono_link" href="https://scholar.google.com/citations?user=Wdyw9_oAAAAJ&hl=es">
+              <i class="fab fa-google"></i>scholar
+          </a>
+      </div>
+      <div class='sub-header-link '>
+          <a class = "mono_link" href="https://github.com/CarolinaRiascos">
+              <i class="fab fa-github"></i>github
+          </a>
+      </div>
+      <div class='sub-header-link'>
+          <a class = "mono_link" href="https://arxiv.org/search/math?searchtype=author&query=Riascos-%C3%81lvarez%2C+L+C">
+              Ar<b class="chi_latex">Χ</b>iv
+          </a>
+      </div>
+      <div class='sub-header-link'>
+        <a href="/assets/criaal_cv.pdf"><i class = "fas fa-file-alt"></i>CV
+        </a>
+      </div>
+  </div>
+  </header>
+  <body>
+    {% include navigation.html %}
+    {{ content }}
+  </body>
+</html>
