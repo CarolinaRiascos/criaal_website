@@ -5,7 +5,7 @@ title: Home
 
 <div class = 'col-2'>
     <div class = 'col'>
-        <h2 class='heading navigation'>
+        <h2 class='heading'>
         Navigating large-scale decision making: Leveraging optimization models for policy making
         <p class='sub-heading'>
         I am interested in designing modelling frameworks and algorithms that can reliably provide an optimal design and policy evaluation, despite a system's high complexity

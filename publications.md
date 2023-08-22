@@ -2,7 +2,7 @@
 layout: default
 title: Publications
 ---
-<div class='heading navigation'>
+<div class='heading'>
     <div class='verbose'>
     {% for item in site.data.publications %}
     <div class='sub-navigation'>

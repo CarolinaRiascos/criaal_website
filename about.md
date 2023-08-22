@@ -3,8 +3,8 @@ layout: default
 title: About
 ---
 
-<div class='heading navigation'>
-    In a nutshell
+<div class='heading'>
+    <h3>In a nutshell</h3>
     <div class='verbose'>
         <p>
         Hello! I am a PhD candidate (awaiting convocation) in Industrial Engineering from the University of Toronto. During my PhD I have worked in the Medical Operations Research Lab (<a class="current" href="https://morlab.mie.utoronto.ca/" target="_blank">morLAB</a>) with advisors <a class="current" href="https://www.mie.utoronto.ca/faculty_staff/aleman/" target="_blank">Dionne Aleman</a> and <a class="current" href="https://www.mie.utoronto.ca/faculty_staff/bodur/" target="_blank">Merve Bodur</a>.
