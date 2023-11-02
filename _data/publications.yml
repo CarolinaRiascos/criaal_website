@@ -1,7 +1,7 @@
 - paper: A Branch-and-Price Algorithm Enhanced by Decision Diagrams for the Kidney Exchange Problem
   journal: Manufacting & Service Operations Management
-  state: To appear in
-  link: https://arxiv.org/abs/2009.13715
+  state: 
+  link: https://pubsonline.informs.org/doi/10.1287/msom.2022.0192
   abstract: Kidney paired donation programs allow patients registered with an incompatible donor to receive a suitable kidney from another donor, as long as the latter's co-registered patient, if any, also receives a kidney from a different donor. The kidney exchange problem (KEP) aims to find an optimal collection of kidney exchanges taking the form of cycles and chains. Existing exact solution methods for KEP either are designed for the case where only cyclic exchanges are considered, or can handle long chains but are scalable as long as cycles are short. We develop the first decomposition method that is able to deal with long cycles and long chains for large realistic instances. More specifically, we propose a branch-and-price framework, in which the pricing problems are solved (for the first time in packing problems in a digraph) through multi-valued decision diagrams. Also, we present a new upper bound on the optimal value of KEP, stronger than the one proposed in the literature, which is obtained via our master problem. Computational experiments show superior performance of our method over the state of the art by optimally solving almost all instances in the PrefLib library for multiple cycle and chain lengths.
 - paper: A Feasibility-Seeking Approach to Two-stage Robust Optimization in Kidney Exchange
   journal: European Journal of Operational Research
