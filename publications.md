@@ -14,7 +14,6 @@ title: Publications
             {{item.state}}  
             <i>{{ item.journal }}</i>
             </td></tr>
-            <tr class="spaceUnder"><td>Abstract: {{ item.abstract }}</td></tr>
         </tbody>
         </table>
     </div>

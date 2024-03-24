@@ -1,5 +1,5 @@
 .current {
-    color: blue;
+  color: #044687;
   }
 
   @font-face {
@@ -18,7 +18,7 @@
 }
 .header-links {
   display: flex;
-  justify-content: center;
+  padding-left: 80px;
   height: 55px;
   width: 100% !important;
   margin-top: 0 !important; 
@@ -37,14 +37,13 @@
 .name{
   color: #DBE2E9;
   float: left;
-  padding: 15px 15px;
-  font-size: 20px;
+
+  font-size: 22px;
   line-height: 20px;
 }
 
 .page-title {
-  font-size: 22px;
-  font-size: 1.375rem;
+  font-size: 18px;
   line-height: 26px;
   line-height: 1.625rem;
   color: white;
@@ -67,7 +66,7 @@ a {
 }
 h3{
   color: #044687;
-  font-size: 35px;
+  font-size: 18px;
   font-family: Baskerville, GaramondPro, Verdana, Lucida Grande, Arial, sans-serif;
   font-weight: normal;
   letter-spacing: 1.0px;
@@ -80,7 +79,7 @@ h3{
 .verbose{
   color: #333;
   font-size: 18px;
-  font-family:  GaramondPro, Verdana, Lucida Grande, Arial, sans-serif;
+  font-family: Baskerville, GaramondPro, Verdana, Lucida Grande, Arial, sans-serif;
   font-weight: normal;
   letter-spacing: 1px;
   width: 36vw;
@@ -89,7 +88,7 @@ h3{
 .navigation{
   display: flex;
   flex-flow: row wrap;
-  padding-left: 400px;
+  padding-left: 100px;
   /*justify-content: space-around;*/
 }
 .sub-navigation {
@@ -100,24 +99,21 @@ h3{
 .heading {
   font-family: Baskerville, GaramondPro, Verdana, Lucida Grande, Arial, sans-serif;
   font-weight: 500;
-  line-height: 1.1;
-  font-size: 20px;
+  line-height: 1.0;
+  font-size: 18px;
   color: #044687;
   max-height: auto;
-  min-width: 10vw;
-  width: 35vw;
-  max-width: 80vw;
-  margin-left: auto;
-  margin-right: auto;
+  width: 40vw;
+  max-width: 200vw;
   align-items: center;
   padding-top: 20pt;
   padding-bottom: 20pt;
-  padding-right: 20px;
+  padding-right: 30px;
   border-bottom: 1.0px solid gray;
 }
 .sub-heading{
   color: gray;
-  font-size: 23px;
+  font-size: 18px;
   font-family: Baskerville, GaramondPro, Verdana, Lucida Grande, Arial, sans-serif;
   font-weight: normal;
   letter-spacing: 1px;
@@ -136,7 +132,7 @@ h3{
 .col{
   position: relative;
   min-height: 1px;
-  padding-left: 400px;
+  padding-left: 110px;
   float: left;
   display: flex;
   flex-direction: column;
@@ -149,7 +145,6 @@ h3{
   width: 18vw;
   height: 18vw;
   display: block;
-  padding-left:70px;
 }
 .img-block {
   float: left;
@@ -157,6 +152,7 @@ h3{
   height: inherit;
   max-width: inherit;
   display: block;
+  padding-left: 30px;
 }
 tr.spaceUnder>td {
   padding-bottom: 1em;
