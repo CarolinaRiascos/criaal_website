@@ -9,18 +9,7 @@ title: Home
             <p>
                 My work addresses optimization under uncertainty, market design, fairness and generative AI.
             </p>
-        </h2>    
-        <div class = "verbose">
-            <div class='sub-navigation'>
-                Software Deployment
-                <p>
-                    I have implemented a demo that helps you document your Python code using Generative AI.
-                </p>
-                <ul>
-                    <li> <a class='current' href="https://codegen.criaal.com/">Python Docstring with Generative AI!</a> </li>
-                </ul>
-            </div>
-        </div>
+        </h2>   
         <div class='verbose'>
             <div class='sub-navigation'>
             Publications:
@@ -40,6 +29,17 @@ title: Home
                 </tbody>
                 </table>
             {% endfor %}
+            </div>
+        </div> 
+        <div class = "verbose">
+            <div class='sub-navigation'>
+                Software Deployment
+                <p>
+                    I have implemented a demo that helps you document your Python code using Generative AI.
+                </p>
+                <ul>
+                    <li> Link here: <a class='current' href="https://codegen.criaal.com/">Python Docstring with Generative AI!</a> </li>
+                </ul>
             </div>
         </div>
     </div>
