@@ -33,7 +33,7 @@ title: Home
         </div> 
         <div class = "verbose">
             <div class='sub-navigation'>
-                Software Deployment
+                Software Deployment:
                 <p>
                     I have implemented a demo that helps you document your Python code using Generative AI.
                 </p>
